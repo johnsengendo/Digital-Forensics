@@ -5,4 +5,4 @@ When the images are rejected by the discriminator, the generator learns that it 
 
 So the generator trained on becoming better to fool the discriminator and the discriminator trained on becoming better in categorising fake and real fashion data.
 
-Dataset used. https://www.kaggle.com/datasets/zalando-research/fashionmnist
+![Dataset used](https://www.kaggle.com/datasets/zalando-research/fashionmnist)
