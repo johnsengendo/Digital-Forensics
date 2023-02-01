@@ -13,3 +13,5 @@ The project was aimed at training a Generative Adversarial Network following the
 
 So the generator was trained on becoming better to fool the discriminator and the discriminator trained on becoming better in categorising fake and real fashion data.
 
+The [algorithim](digital_forensics_project.py) can be run in Colab with GPU enabled or as a Jupyter notebook.
+
