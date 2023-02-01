@@ -3,7 +3,7 @@
 The project was aimed at training a Generative Adversarial Network following the architecture below.
 ## GAN architecture
 
-![VP Canvas](VP_canvas.png)
+[GAN](GAN.JPG)
 
 In this project, I built and trainned an adversarial network that took in a fashion MINT dataset.
 The netwotk consists of two parts, the generator and discriminator. The genrator produced images that resembled the fashion data and these where fed into the discriminator to categorise them as fake or real.
