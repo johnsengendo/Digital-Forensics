@@ -1,6 +1,10 @@
-# Digital-Forensics
+# Digital-Forensics Project
 
-DF project to train a Generative Adversarial Network.
+The project was aimed at training a Generative Adversarial Network following the architecture below.
+## GAN architecture
+
+![VP Canvas](VP_canvas.png)
+
 In this project, I built and trainned an adversarial network that took in a fashion MINT dataset.
 The netwotk consists of two parts, the generator and discriminator. The genrator produced images that resembled the fashion data and these where fed into the discriminator to categorise them as fake or real.
 When the images are rejected by the discriminator, the generator learns that it needs to improve in making better images that resemble the real images.
