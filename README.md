@@ -5,10 +5,11 @@ The project was aimed at training a Generative Adversarial Network following the
 
 ![GAN](GAN.JPG)
 
-In this project, I built and trainned an adversarial network that took in a fashion MINT dataset.
-The netwotk consists of two parts, the generator and discriminator. The genrator produced images that resembled the fashion data and these where fed into the discriminator to categorise them as fake or real.
-When the images are rejected by the discriminator, the generator learns that it needs to improve in making better images that resemble the real images.
+## Methodology
+* In this project, I used the [Fashion MINT dataset](https://www.kaggle.com/datasets/zalando-research/fashionmnist) in trainning the GAN network.
+* The netwotk entailed of mainly two parts, the generator and discriminator. 
+* With random noise fed into the generator, fake fashion resembling images where generated. These where then fed into the discriminator which categorised them as fake or real based on the [test set data](https://www.kaggle.com/datasets/zalando-research/fashionmnist?select=fashion-mnist_test.csv) that was given to the discriminator.
+* When the fake images where rejected by the discriminator, the generator learned that it needs to improve in making better images that resemble the real fashion images.
 
-So the generator trained on becoming better to fool the discriminator and the discriminator trained on becoming better in categorising fake and real fashion data.
+So the generator was trained on becoming better to fool the discriminator and the discriminator trained on becoming better in categorising fake and real fashion data.
 
-[Dataset used](https://www.kaggle.com/datasets/zalando-research/fashionmnist)
