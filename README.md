@@ -1,6 +1,6 @@
 # Digital-Forensics Project
 
-Digital Forensics helps in developing technical solutions needed to protect organisations by countering deep fake. In this project, I trainned a Generative Adversarial Network consisting of two networks (Generator & Discriminator) working against each other following the architecture below.
+Digital Forensics helps in developing technical solutions needed to protect organisations by countering deep fake. In this project, I trainned a Generative Adversarial Network consisting of two networks (Generator & Discriminator) working against each other and following the architecture below.
 ## GAN architecture
 
 ![GAN](GAN.JPG)
