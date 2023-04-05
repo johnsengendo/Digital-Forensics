@@ -1,6 +1,6 @@
 # Digital-Forensics Project
 
-Digital Forensics helps in developing technical solutions needed to protect organisations against cyber attacks and investigation of digital crimes. In this project, I aimed at training a Generative Adversarial Network following the architecture below.
+Digital Forensics helps in developing technical solutions needed to protect organisations by countering deep fake. In this project, I trainned a Generative Adversarial Network consisting of two networks (Generator & Discriminator) working against each other following the architecture below.
 ## GAN architecture
 
 ![GAN](GAN.JPG)
@@ -11,7 +11,7 @@ Digital Forensics helps in developing technical solutions needed to protect orga
 * With random noise fed into the generator, fake fashion images where generated. These where then fed into the discriminator which categorised them as fake or real, based on the [test set data](https://www.kaggle.com/datasets/zalando-research/fashionmnist?select=fashion-mnist_test.csv) that was given to the discriminator.
 * When the fake images where rejected by the discriminator, the generator learned that it needs to improve in making better images that resemble the real fashion images.
 
-So the generator was trained on becoming better to fool the discriminator and the discriminator trained on becoming better in categorising fake and real fashion data.
+So the generator was trained on becoming better to fool the discriminator and the discriminator trained on becoming better in categorising fake from real fashion data.
 
-The [algorithim](digital_forensics_project.py) can be run on the cloud via Colab with GPU enabled or locally as a Jupyter notebook.
+The [notebook](digital_forensics_project.py) can be run on the cloud via Colab with GPU enabled or locally as a Jupyter notebook.
 
