@@ -14,5 +14,6 @@ Digital Forensics helps in developing technical solutions needed to protect orga
 
 So the generator was trained on becoming better to fool the discriminator and the discriminator trained on becoming better in categorising fake from real fashion data.
 
-The [notebook](digital_forensics_project.py) can be run on the cloud via Colab with GPU enabled or locally as a Jupyter notebook.
+I developed a notebook for the implementationwhich can be accesed here [notebook](digital_forensics_project.py).
+It can be run on the cloud via Colab with GPU enabled or locally as a Jupyter notebook.
 
