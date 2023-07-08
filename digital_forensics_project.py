@@ -17,7 +17,7 @@ drive.mount('/content/drive')
 !pip install imageio
 !pip install git+https://github.com/tensorflow/docs
 
-"""##Importing necessary libraries."""
+"""##Importing useful libraries."""
 
 # Commented out IPython magic to ensure Python compatibility.
 import glob
